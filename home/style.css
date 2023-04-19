@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@700&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 13px;
+    display: flex;
+    background-color: #ff0000;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 4px 2px 0px rgba(37, 243, 161, 0.75);
+    -moz-box-shadow: 0px 4px 2px 0px rgba(37, 243, 161, 0.75);
+    box-shadow: 0px 4px 2px 0px rgba(37, 243, 161, 0.75);
+}
+
+.navbar img {
+    width: 30px;
+}
+
+.navbar img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.navbar_left a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar_left a:hover {
+    color: rgb(231, 230, 230);
+}
+
+.navbar_left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_left>* {
+    padding: 10px;
+}
+
+.navbar_right a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar_right a:hover {
+    color: rgb(231, 230, 230);
+}
+
+/*---bottom---*/
+.bottom {
+    background-color: #ff0000;
+    text-align: center;
+}
+
+.bottom hr {
+    color: gray;
+}
+
+.bottom a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom .copyright {
+    color: rgba(255, 255, 255, 1);
+}
+
+.bottom img {
+    width: 30px;
+}
+
+@media screen and (min-width:375px) {
+    .navbar {
+        font-size: 12px;
+    }
+
+    .navbar img {
+        width: 30px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navbar {
+        font-size: 27px;
+    }
+
+    .navbar img {
+        width: 50px;
+    }
+}
+
+@media screen and (min-width:1100px) {}
+
+
+.japan {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    background-color: rgb(255, 38, 0);
+    color: rgb(0, 0, 0);
+}
+
+.europe {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    background-color: rgb(0, 183, 255);
+    color: black;
+}
+
+.africa {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    background-color: rgb(95, 50, 42);
+    color: white;
+}
+
+.asia {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    background-color: rgb(70, 59, 226);
+    color: white;
+}
+
+.oceania {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    background-color: rgb(34, 226, 82);
+    color: rgb(0, 0, 0);
+}
+
+.america {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    background-color: rgb(0, 4, 255);
+    color: rgb(255, 255, 255);
+}
+
+.world_left img {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+.world_right,
+.world_left {
+    font-size: 27px;
+    max-width: 50%;
+    height: 100%;
+    width: 50%;
+    padding: 0px;
+}
+
+.world_right {
+    font-size: 70px;
+}
+
+
+a {
+    text-decoration: none;
+}

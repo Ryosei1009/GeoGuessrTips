@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="../main.js"></script>
+    <title>GeoTips</title>
+</head>
+
+<body>
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="navbar">
+        <div class="navbar_left">
+            <a href="../home/index.html"><img src="../image/logo.png" alt="logo"></a>
+            <div><a href="../world/index.html">World</a></div>
+            <div><a href="../japan/index.html">Japan</a></div>
+        </div>
+        <div class="navbar_right">
+            <div class="map">
+                <a href="https://www.geoguessr.com/">
+                    <svg aria-hidden="true" class="valign-middle pr2" focusable="false"
+                        preserveAspectRatio="xMidYMid meet"
+                        style="width:32px;height:32px;overflow:visible;fill:currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5">
+                        </path>
+                    </svg>
+                    <div>GeoGuessr</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="table">
+        <div class="title">
+            　目次
+        </div>
+        <div class="list">
+            　　　　<a href="#europe">Europe</a><br>
+            　　　　<a href="#africa">Africa</a><br>
+            　　　　<a href="#asia">Asia</a><br>
+            　　　　<a href="#oceania">Oceania</a><br>
+            　　　　<a href="#america">America</a>
+        </div>
+    </div>
+
+    <div class="europe" id="europe">
+        <h1>　Europe</h1>
+        <div class="eulist">
+            <div class="eulist_info">
+                <div class="right">
+                    <div class="countories">
+                        <a href="#greenland">
+                            グリーンランド / Greenland
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="#iceland">
+                            アイスランド / IceLand
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="#faroe">
+                            フェロー諸島 / Faroe Islands
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="#ireland">
+                            アイルランド / Ireland
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="#unitedkingdom">
+                            イギリス / UnitedKingdom
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="#norway">
+                            ノルウェー / Norway
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            スウェーデン / Sweden
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            フィンランド / Finland
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            エストニア / Estonia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ラトビア / Latvia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            リトアニア / Lithuania
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ポルトガル / Portugal
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            スペイン / Spain
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            アンドラ / Andorra
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            フランス / France
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ベルギー / Belgium
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            オランダ / Netherlands
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ルクセンブルク / Luxembourg
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            デンマーク / Denmark
+                        </a>
+                        <br>
+                    </div>
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ドイツ / Germany
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="left">
+                    <div class="countories">
+                        <a href="..//index.html">
+                            スイス / Switzerland
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            イタリア / Italy
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            アルバニア / Albania
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            モンテネグロ / Montenegro
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            クロアチア / Croatia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            スロバニア / Slovenia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            オーストリア / Austria
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            チェコ / CzechRepublic
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            スロバキア / Slovakia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ポーランド / Poland
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ルーマニア / Romania
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ハンガリー / Hungary
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            セルビア / Serbia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            北マケドニア / North Macedonia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ブルガリア / Bulgaria
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ギリシャ / Greece
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ウクライナ / Ukraine
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            ロシア / Russia
+                        </a>
+                        <br>
+                    </div>
+
+                    <div class="countories">
+                        <a href="..//index.html">
+                            トルコ / Turkey
+                        </a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="countory_info" id="greenland">
+                <div class="countory">
+                    <div class="right">
+                        <div class="banner">
+                            <img src="../image/gl1.png" alt="banner">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <img src="../image/gl_map.png" alt="">
+                        <div class="name">
+                            <a href="../world/greenland/index.html">
+                                グリーンランド / Greenland
+                            </a>
+                            <br>
+                            ドメイン : .gl
+                        </div>
+                        <div class="launguege">
+                            グリーンランド語
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature1">
+                        <div class="right">
+                            <div class="title">
+                                景色
+                            </div>
+                            <div class="text">
+                                ・岩山 <br>
+                                ・カラフルな家 <br>
+                                ・沿岸部が多い <br>
+                                ・岩から家が生えているような感じ <br>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/gl_scenery.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="countory_info" id="iceland">
+                <div class="countory">
+                    <div class="right">
+                        <div class="banner">
+                            <img src="../image/is1.png" alt="banner">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <img src="../image/is_map.png" alt="">
+                        <div class="name">
+                            <a href="../world/iceland/index.html">
+                                アイスランド / Iceland
+                            </a>
+                            <br>
+                            ドメイン : .is
+                        </div>
+                        <div class="launguege">
+                            アイスランド語
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature1">
+                        <div class="right">
+                            <div class="title">
+                                景色
+                            </div>
+                            <div class="text">
+                                ・木がない草原 <br>
+                                ・黄色いボラード <br>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/is_scenery.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="feature2">
+                        <div class="right">
+                            <div class="title">
+                                言語
+                            </div>
+                            <div class="text">
+                                Ð,ðの文字が特徴的
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/is_laungueges.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="countory_info" id="faroe">
+                <div class="countory">
+                    <div class="right">
+                        <div class="banner">
+                            <img src="../image/fo1.png" alt="banner">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <img src="../image/fo_map.png" alt="">
+                        <div class="name">
+                            <a href="../world/faroe/index.html">
+                                フェロー諸島 / Faroe Islands
+                            </a>
+                            <br>
+                            ドメイン : .fo
+                        </div>
+                        <div class="launguege">
+                            フェロー語
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature1">
+                        <div class="right">
+                            <div class="title">
+                                景色
+                            </div>
+                            <div class="text">
+                                ・草原と丘 <br>
+                                ・沿岸部が多い <br>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/fo_scenery.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="feature2">
+                        <div class="right">
+                            <div class="title">
+                                Car mata
+                            </div>
+                            <div class="text">
+                                ルーフレームとサイドミラーが見えている。
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/fo_car.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="countory_info" id="ireland">
+                <div class="countory">
+                    <div class="right">
+                        <div class="banner">
+                            <img src="../image/ie1.png" alt="banner">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <img src="../image/ie_map.png" alt="">
+                        <div class="name">
+                            <a href="../world/ireland/index.html">
+                                アイルランド / Ireland
+                            </a>
+                            <br>
+                            ドメイン : .ie
+                        </div>
+                        <div class="launguege">
+                            アイルランド語 英語
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature1">
+                        <div class="right">
+                            <div class="title">
+                                ナンバープレート
+                            </div>
+                            <div class="text">
+                                ・eu <br>
+                                ・左側通行 <br>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/ie_number.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="feature2">
+                        <div class="right">
+                            <div class="title">
+                                プレート
+                            </div>
+                            <div class="text">
+                                ・二言語表記<br>　　(英語,アイルランド語)<br>
+                                ・道路番号がN○○
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/ie_plate.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="countory_info" id="unitedkingdom">
+                <div class="countory">
+                    <div class="right">
+                        <div class="banner">
+                            <img src="../image/uk1.png" alt="banner">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <img src="../image/ie_map.png" alt="">
+                        <div class="name">
+                            <a href="../world/unitedkingdom/index.html">
+                                イギリス / UnitedKingdom
+                            </a>
+                            <br>
+                            ドメイン : .uk
+                        </div>
+                        <div class="launguege">
+                            英語
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature1">
+                        <div class="right">
+                            <div class="title">
+                                ナンバープレート
+                            </div>
+                            <div class="text">
+                                ・前が白,後ろが黄色 <br>
+                                ・左側通行 <br>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/uk_number.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="feature2">
+                        <div class="right">
+                            <div class="title">
+                                プレート
+                            </div>
+                            <div class="text">
+                                ・背景緑に黄色が多い<br>
+                                ・道路番号がA○○
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/uk_plate.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="countory_info" id="norway">
+                <div class="countory">
+                    <div class="right">
+                        <div class="banner">
+                            <img src="../image/no1.png" alt="banner">
+                        </div>
+                    </div>
+                    <div class="left">
+                        <img src="../image/no_map.png" alt="">
+                        <div class="name">
+                            <a href="../world/norway/index.html">
+                                ノルウェー / Norway
+                            </a>
+                            <br>
+                            ドメイン : .no
+                        </div>
+                        <div class="launguege">
+                            ノルウェー語
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature1">
+                        <div class="right">
+                            <div class="title">
+                                道路
+                            </div>
+                            <div class="text">
+                                ・サイドラインが白 <br>
+                                ・長いダッシュの線 <br>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/no_road.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="feature2">
+                        <div class="right">
+                            <div class="title">
+                                看板
+                            </div>
+                            <div class="text">
+                                ・看板は黄色背景に赤枠に黒文字
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img src="../image/no_plate.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="africa" id="africa">
+    </div>
+
+    <div class="asia" id="asia">
+    </div>
+
+    <div class="oceania" id="oceania">
+    </div>
+
+    <div class="america" id="america">
+    </div>
+
+    <div class="bottom">
+        <div class="copyright"><br>© 2023 ShinoChan<br>　</div>
+    </div>
+</body>
+
+</html>
